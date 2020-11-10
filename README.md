@@ -1,2 +1,2 @@
-# I-Love-Psit
+# I-Love-PSIT
 PSIT PROJECT
