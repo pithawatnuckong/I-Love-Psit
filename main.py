@@ -20,7 +20,7 @@ class popupWindow(object):
         top.title('Input Password')
         top.geometry('{}x{}'.format(250, 100))
         top.resizable(width=False, height=False)
-        self.l = Label(top, text=" Password: ", font=('Courier', 14), justify=CENTER)
+        self.l = Label(top, text=" Enter your name: ", font=('Courier', 14), justify=CENTER)
         self.l.pack()
         self.e = Entry(top, show='*', width=30)
         self.e.pack(pady=7)
@@ -29,7 +29,7 @@ class popupWindow(object):
 
     def cleanup(self):
         self.value = self.e.get()
-        access = 'tim'
+        access = 'warit'
 
         if self.value == access:
             self.loop = True
